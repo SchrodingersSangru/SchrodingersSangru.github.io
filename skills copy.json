@@ -1,0 +1,134 @@
+[
+    
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    
+    {
+        "name": "Quantum Computing",
+        "icon": "https://eu-images.contentstack.com/v3/assets/blt69509c9116440be8/blt11acec41cd9fa88b/64cb1ab6ae5fae47eeb53d03/quantumcomputing_Elnur-AdobeStock.jpg"
+    },
+    {
+        "name": "Quantum Algorithms",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://isagebrum.com/images/technology/python-image.svg"
+    },
+    {
+        "name": "C",
+        "icon": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/4087150/cover_image/retina_1708x683/cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-e85854c3f0bb99704e83139475284901.png"
+    },
+    {
+        "name": "Quantum Machine Learning",
+        "icon": "https://www.temok.com/blog/wp-content/uploads/2023/12/Quantum-Machine-Learning.webp"
+    },
+   
+    {
+        "name": "Quantum Software Development",
+        "icon": "https://images.surferseo.art/25bb0a4f-7955-4811-9af1-dbd28b8e18d9.jpeg"
+    },
+    {
+        "name": "Mathematical Modelling",
+        "icon": "https://www.shutterstock.com/image-illustration/conceptual-business-illustration-words-mathematical-260nw-1013208268.jpg"
+    },
+    {
+        "name": "Amazon Web Services",
+        "icon": "https://assets.allcode.com/wp-content/uploads/2021/07/top-aws-service-list-2023-scaled.webp"
+    },
+    {
+        "name": "Qiskit",
+        "icon": "https://quantumzeitgeist.com/wp-content/uploads/Qiskit-logo-1024x794.png.webp"
+    },
+    {
+        "name": "Pennylane",
+        "icon": "https://media.licdn.com/dms/image/v2/D4D22AQE1Bql_2ZhAJA/feedshare-shrink_800/feedshare-shrink_800/0/1692368578524?e=2147483647&v=beta&t=DcRY1IXaCSNaBEa3C-ikk9YJZsOjkLjL6sOz3Dye-aA"
+    },
+    {
+        "name": "AWS Braket",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDoFyrnad3W0Je7qng9HBwb_M-nP915HZUQ&s"
+    },
+    {
+        "name": "Web Applications",
+        "icon": "https://media.bitcot.com/wp-content/uploads/2023/12/custom-web-application-development.webp"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "https://emeritus.org/in/wp-content/uploads/sites/3/2023/03/types-of-machine-learning.jpg.optimal.jpg"
+    },
+    {
+        "name": "Data Science",
+        "icon": "https://thedatascientist.com/wp-content/uploads/2024/07/Data-scienc.jpg"
+    },
+    {
+        "name": "Julia",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkyFOO9EDHT_JRIVtk8DzF7ik0cx--MCtjA&s"
+    },
+    {
+        "name": "Public Speaking",
+        "icon": "https://foundr.com/wp-content/uploads/2020/11/Public-speaking.png"
+    },
+    {
+        "name": "Django",
+        "icon": "https://inspector.dev/wp-content/uploads/2023/04/logo-python-django.png"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+    },
+    {
+        "name": "Front End",
+        "icon": "https://media.licdn.com/dms/image/v2/D5612AQGSQNXqqRimJg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1660243763578?e=2147483647&v=beta&t=Qq39UGtubkbUXHXhMkZBMzJGEbSF7BE5VyoOf7Vb4sI"
+    },
+    {
+        "name": "JS",
+        "icon": "https://store-images.s-microsoft.com/image/apps.26747.14287819761523024.ce8fba94-2426-4aa0-8617-d034156fb5e2.1d384ea6-eb3c-4eea-b7ae-f206ea061b2f"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    }, 
+    {
+        "name": "Product development",
+        "icon": "https://media.licdn.com/dms/image/C5612AQHjhkxq5piA0g/article-cover_image-shrink_720_1280/0/1607550338024?e=2147483647&v=beta&t=WwU4mkydh0k9Y6J_jkqBmMexEEX0jmb792cCOm_jcvw"
+    },   
+
+    {
+        "name": "Qiskit",
+        "icon": "https://quantumzeitgeist.com/wp-content/uploads/Qiskit-logo-1024x794.png.webp"
+    },
+    {
+        "name": "Pennylane",
+        "icon": "https://media.licdn.com/dms/image/v2/D4D22AQE1Bql_2ZhAJA/feedshare-shrink_800/feedshare-shrink_800/0/1692368578524?e=2147483647&v=beta&t=DcRY1IXaCSNaBEa3C-ikk9YJZsOjkLjL6sOz3Dye-aA"
+    },
+    {
+        "name": "AWS Braket",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDoFyrnad3W0Je7qng9HBwb_M-nP915HZUQ&s"
+    },
+    {
+        "name": "Django",
+        "icon": "https://inspector.dev/wp-content/uploads/2023/04/logo-python-django.png"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+    },
+    {
+        "name": "Team building and Management",
+        "icon": "https://blogimage.vantagecircle.com/content/images/2020/08/teamwork-and-team-building.png"
+    }
+]

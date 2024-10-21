@@ -1,0 +1,91 @@
+[ 
+    {
+        "name": "Quantum Computing"
+    },
+    {
+        "name": "Quantum Algorithms"
+    },
+    {
+        "name": "Python"
+    },
+    {
+        "name": "C"
+    },
+    {
+        "name": "Quantum Machine Learning",
+        "icon": "#"
+    },
+   
+    {
+        "name": "Quantum Software Development",
+        "icon": "#"
+    },
+    {
+        "name": "Mathematical Modelling",
+        "icon": "#"
+    },
+    {
+        "name": "Amazon Web Services",
+        "icon": "#"
+    },
+    {
+        "name": "Qiskit",
+        "icon": "#"
+    },
+    {
+        "name": "Pennylane",
+        "icon": "#"
+    },
+    {
+        "name": "AWS Braket",
+        "icon": "#"
+    },
+    {
+        "name": "Web Applications",
+        "icon": "#"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "#"
+    },
+    {
+        "name": "Data Science",
+        "icon": "#"
+    },
+    {
+        "name": "Julia",
+        "icon": "#"
+    },
+    {
+        "name": "Public Speaking",
+        "icon": "#"
+    },
+    {
+        "name": "Django",
+        "icon": "#"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "#"
+    },
+    {
+        "name": "Front End",
+        "icon": "#"
+    },
+    {
+        "name": "JS",
+        "icon": "#"
+    },
+    {
+        "name": "GitHub",
+        "icon": "#"
+    },
+    {
+        "name": "WordPress",
+        "icon": "#"
+    }, 
+    {
+        "name": "Product development",
+        "icon": "#"
+    }
+]

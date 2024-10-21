@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Photos with Enlarged Center Image</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .image-container {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .moving-image {
+            width: 150px;
+            height: 150px;
+            margin: 0 10px;
+            opacity: 0.6;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .active {
+            transform: scale(1.5);
+            opacity: 1;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 1.2em;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .active-description {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="section" id="section1">
+        <div class="image-container">
+            <img src="./assets/images/lapy.jpg" class="moving-image" alt="Image 1">
+            <img src="https://drive.google.com/uc?export=view&id=1UYm4JlBayaWw9xpBKDUvIaC7AcgdwHKr" class="moving-image" alt="Image from Google Drive">
+        </div>
+        <div class="description">Description for Image 1</div>
+    </div>
+
+    <div class="section" id="section2">
+        <div class="image-container">
+            <a href="https://drive.google.com/drive-viewer/AKGpihaqX2DHux0-xM59IzfZN8o6y-aJqiFKZIFNlUjOhH8HW-GDheLdhSRLP_RziVdfiK6G8zvVkLY-E-xgpNL85ta6Bfp87fGHnw=s2560?source=screenshot.guru"> <img src="https://drive.google.com/drive-viewer/AKGpihaqX2DHux0-xM59IzfZN8o6y-aJqiFKZIFNlUjOhH8HW-GDheLdhSRLP_RziVdfiK6G8zvVkLY-E-xgpNL85ta6Bfp87fGHnw=s2560" /> </a>
+            <img src="https://drive.google.com/uc?export=view&id=1V0X9WIueIe4fkaGrOGXcxtmvj9TAO0SA" class="moving-image" alt="Image 5">
+        </div>
+        <div class="description">Description for Image 2</div>
+    </div>
+
+    <div class="section" id="section3">
+        <div class="image-container">
+            <img src="https://drive.google.com/drive-viewer/AKGpihaqX2DHux0-xM59IzfZN8o6y-aJqiFKZIFNlUjOhH8HW-GDheLdhSRLP_RziVdfiK6G8zvVkLY-E-xgpNL85ta6Bfp87fGHnw=s2560" class="moving-image" alt="Image 8">
+            <img src="https://drive.google.com/uc?export=view&id=1VQMjIg02cBD5X0yDFEpifWRdRDFbe1ce" class="moving-image" alt="Image 9">
+        </div>
+        <div class="description">Description for Image 3</div>
+    </div>
+
+
+    <script>
+        const sections = document.querySelectorAll('.section');
+
+        sections.forEach((section) => {
+            const images = section.querySelectorAll('.moving-image');
+            const description = section.querySelector('.description');
+            let currentIndex = 0;
+
+            function showNextImage() {
+                images.forEach((img, index) => {
+                    img.classList.remove('active');
+                    if (index === currentIndex) {
+                        img.classList.add('active');
+                    }
+                });
+
+                // Set the description for the current image
+                description.textContent = `Description for Image ${currentIndex + 1}`;
+                description.classList.remove('active-description');
+                
+                // Add class for active description
+                setTimeout(() => {
+                    description.classList.add('active-description');
+                }, 300); // Delay to allow the image to change first
+
+                currentIndex = (currentIndex + 1) % images.length;
+
+                // Move the image container to center the active image
+                const offset = (currentIndex - 1) * 170; // 150px image + 20px margin
+                section.querySelector('.image-container').style.transform = `translateX(-${offset}px)`;
+
+                setTimeout(showNextImage, 3000); // Change image every 3 seconds
+            }
+
+            showNextImage();
+        });
+    </script>
+</body>
+</html>

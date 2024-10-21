@@ -1,0 +1,45 @@
+[
+  
+  {
+    "name": "Quantum Software for Portfolio Optimization and Rebalancing",
+    "desc": "developed quantum algorithm for Portfolio Optimization and developed a quantum software",
+    "image": "",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": " Quantum Generative Adversarial Networks for Stocks price prediction",
+    "desc": "",
+    "image": "",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Chessboard simulation",
+    "desc": "Chessboard simulation ",
+    "image": "",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/SchrodingersSangru/chessboard-compute"
+    }
+  },
+  {
+    "name": "Dwave knapsack solver library",
+    "desc": "developed a pypi library for solving the knapsack problem using dwave quantum annealers, you just need to install it. ",
+    "image": "",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/SchrodingersSangru/dwave-knapsack-solver"
+    }
+  }
+ 
+  
+]
