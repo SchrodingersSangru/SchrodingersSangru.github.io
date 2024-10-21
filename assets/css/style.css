@@ -1228,6 +1228,7 @@ form .button-area {
 
 
 
+
 /* achievements section starts */
 .achievements {
   background: #e5ecfb;
@@ -1247,6 +1248,7 @@ form .button-area {
   align-items: center;
   flex-direction: column;
 }
+
 .achievements .box-container .box {
   display: flex;
   flex-direction: row;
@@ -1304,7 +1306,7 @@ form .button-area {
   font-weight: 700;
 }
 
-/* education media queries starts*/
+/* achievements media queries starts*/
 @media screen and (max-width: 600px) {
   .achievements .box-container .box {
     flex-direction: column;
